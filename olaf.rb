@@ -611,7 +611,7 @@ commands = {
 }
 
 def print_help(commands)
-  date_stamp = File.stat(EXECUTABLE_LOCATION).mtime.strftime("%Y.%m.%d")
+  date_stamp = File.stat(EXECUTABLE_LOCATION).mtime.strftime("%Y.%m%d.%H%M")
 
   puts "Olaf #{date_stamp} - Overly Lightweight Audio Fingerprinting" 
   "No such command, the following commands are valid:"
