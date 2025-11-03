@@ -101,7 +101,7 @@ Olaf_Config* olaf_config_default(void){
 	config->printResultEvery = 0;//seconds
 	
 	//number of matches (hash collisions) 
-	config->maxDBCollisions = 2000;//for larger data sets use around 2000
+	config->maxDBCollisions = 10000;//for larger data sets use around 2000
 
 	return config;
 }
